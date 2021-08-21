@@ -6,8 +6,6 @@ import java.net.Socket;
 
 /**
  * RPC服务器启动
- * @author cdwangzijian
- *
  */
 public class RpcServer {
 

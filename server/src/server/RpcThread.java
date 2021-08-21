@@ -1,13 +1,13 @@
 package server;
 
+import entity.RpcObject;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.Socket;
-
-import entity.RpcObject;
 
 public class RpcThread extends Thread {
 
@@ -64,10 +64,6 @@ public class RpcThread extends Thread {
 
     /**
      * 通过反射技术执行方法，并返回返回值
-     * @param o
-     * @param methodName
-     * @param args
-     * @return
      */
     private Object executeMethod(Object o, String methodName, Object[] args) {
         Object objR = null;
@@ -95,8 +91,6 @@ public class RpcThread extends Thread {
 
     /**
      * 根据接口名得到实例
-     * @param c
-     * @return
      */
     private Object getObject(Class<?> c) {
         Object o = null;

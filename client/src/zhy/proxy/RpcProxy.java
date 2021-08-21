@@ -13,8 +13,6 @@ import entity.RpcObject;
  * 客户端接口代理
  * 当客户端接口方法被调用的时候，把方法名，方法参数作为参数。
  * 传送给远程服务执行，然后获取返回值
- * @author cdwangzijian
- *
  */
 public class RpcProxy implements InvocationHandler, Serializable{
 
