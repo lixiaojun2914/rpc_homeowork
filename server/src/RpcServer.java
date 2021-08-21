@@ -1,4 +1,4 @@
-package server;
+import server.RpcThread;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -9,7 +9,7 @@ import java.net.Socket;
  * @author cdwangzijian
  *
  */
-public class StartUp {
+public class RpcServer {
 
     public static final int port = 9001;
 

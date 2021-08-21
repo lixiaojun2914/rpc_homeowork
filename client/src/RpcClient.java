@@ -1,5 +1,3 @@
-package zhy;
-
 import service.IHello;
 import zhy.proxy.ProxyFactory;
 
