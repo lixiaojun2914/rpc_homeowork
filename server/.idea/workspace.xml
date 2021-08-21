@@ -3,10 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c0d88ab8-7470-4f19-b051-973de492d9e2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../client/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../client/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/service/impl/HelloImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/out/production/client/zhy/RpcClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/src/zhy/RpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/RpcClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/server/StartUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/StartUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RpcServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -96,6 +105,7 @@
       <workItem from="1629519198610" duration="11000" />
       <workItem from="1629519230813" duration="2186000" />
       <workItem from="1629531112139" duration="169000" />
+      <workItem from="1629531299715" duration="950000" />
     </task>
     <servers />
   </component>

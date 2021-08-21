@@ -9,7 +9,7 @@ public class RpcClient {
 
         IHello hello = ProxyFactory.create(IHello.class, ip, port);
 
-        System.out.println(hello.sayHello("小明"));
+        System.out.println(hello.sayHello("rpc"));
 
     }
 }
